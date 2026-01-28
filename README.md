@@ -4,7 +4,14 @@ This repository demonstrates how to establish a bi-directional communication cha
 To control an LED (or a relay for larger appliances) remotely via the Blynk Mobile App using mobile data (2G/GPRS).
 ## 🚀 Key FeaturesCellular Connectivity: 
 Connects to the internet via GPRS using a SIM card.Remote Control: Toggle an LED ON/OFF from anywhere in the world using the Blynk Dashboard or App.Low Cost: Utilizes the affordable SIM800L module and the standard Arduino UNO.Blynk 2.0 Ready Compatible with the latest Blynk IoT platform.
-## 🛠️ Hardware RequirementsMicrocontroller: Arduino UNO (or Nano).GSM Module: SIM800L (Red module recommended).Power Supply: External 3.7V - 4.2V Li-Ion battery or a Buck Converter (LM2596) capable of delivering 2A peak current.Note: The Arduino 5V pin is usually insufficient to power the SIM800L during network bursts.SIM Card: A working Micro-SIM with an active data plan (2G support required).Output: LED (and 220Ω resistor) or 5V Relay Module.Connection: Jumper wires and Breadboard.
+## 🛠️ Hardware Requirements
+Microcontroller: Arduino UNO (or Nano).
+GSM Module: SIM800L (Red module recommended).
+Power Supply: External 3.7V - 4.2V Li-Ion battery or a Buck Converter (LM2596) capable of delivering 2A peak current.
+Note: The Arduino 5V pin is usually insufficient to power the SIM800L during network bursts.
+SIM Card: A working Micro-SIM with an active data plan (2G support required).
+Output: LED (and 220Ω resistor) or 5V Relay Module.
+Connection: Jumper wires and Breadboard.
 ## 💻 Software & Libraries 
 To run this project, you need the Arduino IDE and the following libraries installed via the Library Manager:TinyGSM: For handling the SIM800L AT commands.Blynk: For connecting to the Blynk Cloud.
 ## 🔌 Circuit Connections
